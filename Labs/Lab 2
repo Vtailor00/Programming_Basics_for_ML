@@ -1,0 +1,33 @@
+temp = float(input('Enter the temperature: '))
+
+unit = input('Enter the unit of temperature (C/F): ')
+
+print('The temperature is', temp,'°', unit)
+
+if unit == 'C':
+
+   if temp <= 0:
+
+       print('The state of water is solid')
+
+   elif temp >= 100:
+
+       print('The state of water is gaseous')
+
+   else:
+
+       print('The state of water is liquid')
+
+if unit == 'F':
+
+   if temp <= 32:
+
+       print('The state of water is solid')
+
+   elif temp >= 212:
+
+       print('The state of water is gaseous')
+
+   else:
+
+       print('The state of water is liquid')          
